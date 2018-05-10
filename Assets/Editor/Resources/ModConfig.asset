@@ -10,10 +10,22 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
   m_Name: ModConfig
-  m_EditorClassIdentifier: 
-  id: theCodeModule
-  title: The Code
-  description: 
+  m_EditorClassIdentifier:
+  id: LivDrDoctor
+  title: Dr. Doctor
+  description: 'Someone infected the bomb with a deadly module.
+
+
+    Module created by DanielL, livPlays, implemented by livPlays and Timwi.
+
+
+    Thanks to Royal_Flu$h and red031000 for helping me a little bit.
+
+
+    Thanks to Riverbui and Timwi for creating the manual.
+
+
+    Manual: https://ktane.timwi.de/HTML/Dr.%20Doctor.html'
   version: 1.0
   outputFolder: build
-  previewImage: {fileID: 0}
+  previewImage: {fileID: 2800000, guid: 9de0ff2e25dda834fa66b5804ba1fe20, type: 3}
