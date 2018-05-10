@@ -789,9 +789,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1520469452362048}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.03, y: 0.57, z: 0.37}
-  m_LocalScale: {x: 0.04, y: 0.08, z: 0}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.57, z: 0.37}
+  m_LocalScale: {x: 0.03125, y: 0.083333366, z: 0}
   m_Children: []
   m_Father: {fileID: 4259132617876364}
   m_RootOrder: 0
@@ -2667,7 +2667,7 @@ TextMesh:
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 4
-  m_Alignment: 2
+  m_Alignment: 1
   m_TabSize: 4
   m_FontSize: 87
   m_FontStyle: 0
@@ -2904,16 +2904,17 @@ MonoBehaviour:
   BombInfo: {fileID: 114977887499620370}
   Bomb: {fileID: 114977887499620370}
   kmbombinfo: {fileID: 114977887499620370}
-  Button1: {fileID: 114328087615217504}
-  Button2: {fileID: 114769821288680512}
-  Button3: {fileID: 114062964792441024}
-  Button4: {fileID: 114973918477663206}
-  Button5: {fileID: 114938973120785176}
-  Button6: {fileID: 114867979582113450}
-  Button7: {fileID: 114107108598326682}
-  Button8: {fileID: 114892984320666200}
-  Button9: {fileID: 114609766410799706}
-  Button0: {fileID: 114790176347328640}
+  NumberButtons:
+  - {fileID: 114790176347328640}
+  - {fileID: 114328087615217504}
+  - {fileID: 114769821288680512}
+  - {fileID: 114062964792441024}
+  - {fileID: 114973918477663206}
+  - {fileID: 114938973120785176}
+  - {fileID: 114867979582113450}
+  - {fileID: 114107108598326682}
+  - {fileID: 114892984320666200}
+  - {fileID: 114609766410799706}
   ButtonR: {fileID: 114573920543495416}
   ButtonS: {fileID: 114846940103016444}
   Display: {fileID: 102933444953896624}
