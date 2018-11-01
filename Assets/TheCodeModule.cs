@@ -39,7 +39,7 @@ public class TheCodeModule : MonoBehaviour
         LogMessage("Initial module number was {0}", moduleNumber);
         DOW = DateTime.Now.DayOfWeek.ToString();
 
-        if ((Bomb.GetBatteryHolderCount() == 1 && Bomb.GetBatteryCount() == 1 && Bomb.GetOffIndicators().Contains("BOB") && Bomb.GetPortCount() == 1 && Bomb.GetPorts().Contains("Serial")))
+        if ((Bomb.GetBatteryHolderCount() == 1 && Bomb.GetBatteryCount() == 1 && Bomb.GetOffIndicators().Contains("BOB") && Bomb.GetPorts().Contains("Serial")))
         {
             solution = moduleNumber;
             LogMessage("There was exactly one battery in one holder, an unlit BOB and a serial port, solution was the displayed number.");
